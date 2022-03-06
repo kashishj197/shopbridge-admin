@@ -11,11 +11,6 @@ The project is built on Angular v13.2.5
 ### A walkthrough video on how to use ShopBridge Admin App
 ![Desktop-Shopbridge](https://user-images.githubusercontent.com/37466111/156914488-cf65277e-c616-46f6-bee4-83f80517e4f6.gif)
 
-## 🕔 Time Tracking
-* Frontend Functionality - 6 hours
-* Frontend Presentation - 4 hours
-* Mockdata-Frontend Integration - 1 hour
-
 ## Mobile Version
 ### A walkthrough of mobile responsive version
 ![mobile-version-shopbridge](https://user-images.githubusercontent.com/37466111/156914799-2461a261-5ba1-495d-b09e-44c06d4ed725.gif)
@@ -30,4 +25,9 @@ The project is built on Angular v13.2.5
 * Angular Material
 * Sweet Alert 2
 * Rxjs
+
+## 🕔 Time Tracking
+* Frontend Functionality - 6 hours
+* Frontend Presentation - 4 hours
+* Mockdata-Frontend Integration - 1 hour
 
