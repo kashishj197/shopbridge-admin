@@ -1,6 +1,6 @@
 # ShopbridgeAdmin
 
-Shop Bridge Admin app is a web application that helps track the different items for sale. It is an inventory management system which keeps records of the items with their name, description, price and other fields.
+Shop Bridge Admin app is a fully responsive production ready web application that helps track the different items for sale. It is an inventory management system which keeps records of the items with their name, description, price and other fields.
 
 The project is built on Angular v13.2.5
 
@@ -17,4 +17,12 @@ A walkthrough video on how to use ShopBridge Admin App
 * Mockdata-Frontend Integration - 1 hour
 
 ## Mobile Version
-![ShopBridge admin - Mobile version](https://user-images.githubusercontent.com/37466111/156913272-1a935556-6c27-4863-9071-080f2b08c174.png)
+A walkthrough of mobile responsive version
+![mobile-version-shopbridge](https://user-images.githubusercontent.com/37466111/156914799-2461a261-5ba1-495d-b09e-44c06d4ed725.gif)
+
+## Tech Stack
+* Angular v13.2.5
+* Angular Material
+* Sweet Alert 2
+* Rxjs
+
