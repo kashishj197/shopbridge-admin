@@ -9,4 +9,3 @@ The project is built on Angular v13.2.5
 
 ## Mobile Version
 ![ShopBridge admin - Mobile version](https://user-images.githubusercontent.com/37466111/156913272-1a935556-6c27-4863-9071-080f2b08c174.png)
-![ShopBridge Admin app - Mobile Version 2](https://user-images.githubusercontent.com/37466111/156913381-4761fc51-a861-439e-9b3c-e26b95ac56f7.png)
