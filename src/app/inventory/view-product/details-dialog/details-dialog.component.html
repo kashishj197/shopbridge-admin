@@ -1,0 +1,8 @@
+<mat-dialog-content>
+  <mat-dialog-actions align="end">
+    <button mat-button mat-dialog-close (click)="closeDialog()"><mat-icon>close</mat-icon></button>
+  </mat-dialog-actions>
+  <div class="dialog-content">
+    <app-view-product [viewItem]="data"></app-view-product>
+  </div>
+</mat-dialog-content>

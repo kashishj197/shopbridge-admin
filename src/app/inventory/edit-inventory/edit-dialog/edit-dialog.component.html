@@ -1,0 +1,33 @@
+<mat-dialog-content>
+  <mat-dialog-actions align="end">
+    <button mat-button mat-dialog-close (click)="closeDialog()"><mat-icon>close</mat-icon></button>
+  </mat-dialog-actions>
+  <div class="dialog-content">
+    <form [formGroup]="updateInventoryForm">
+      <mat-form-field>
+        <mat-label>Name</mat-label>
+        <input formControlName="name" matInput>
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Description</mat-label>
+        <input formControlName="description" matInput>
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Price</mat-label>
+        <input formControlName="price" matInput>
+        <mat-error *ngIf="updateInventoryForm.controls?.['price']?.errors?.['invalidMsg']">
+          {{ updateInventoryForm.controls?.['price']?.errors?.['invalidMsg'] }}
+        </mat-error>
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Quantity</mat-label>
+        <input formControlName="quantity" matInput>
+        <mat-error *ngIf="updateInventoryForm.controls?.['quantity']?.errors?.['invalidMsg']">
+          {{ updateInventoryForm.controls?.['quantity']?.errors?.['invalidMsg'] }}
+        </mat-error>
+      </mat-form-field>
+      <mat-checkbox formControlName="available">Available</mat-checkbox>
+      <button (click)="updateInventory()"mat-raised-button color="primary">Update</button>
+    </form>
+  </div>
+</mat-dialog-content>

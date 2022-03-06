@@ -1,0 +1,40 @@
+<div class="container" [class.is-mobile]="mobileQuery.matches">
+  <mat-toolbar color="primary" class="toolbar">
+    <button *ngIf="!sidenav.opened; else arrow" mat-icon-button aria-label="side nav" (click)="sidenav.toggle()">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <ng-template #arrow>
+      <button mat-icon-button class="sideNavButton" aria-label="side nav" (click)="sidenav.toggle()">
+        <mat-icon>arrow_back</mat-icon>
+      </button>
+    </ng-template>
+    <span class="title">{{ title }}</span>
+    <span class="spacer"></span>
+    <button mat-icon-button class="user-icon" aria-label="user icon">
+      <mat-icon>person</mat-icon>
+    </button>
+  </mat-toolbar>
+  <mat-sidenav-container class="sidenav-container"
+                         [style.marginTop.px]="mobileQuery.matches ? 56 : 0">
+    <mat-sidenav [opened]="!mobileQuery.matches" #sidenav [mode]="mobileQuery.matches ? 'over' : 'side'"
+                 [fixedInViewport]="mobileQuery.matches" fixedTopGap="56">
+      <mat-nav-list>
+        <mat-nav-list>
+          <mat-list-item routerLink="/dashboard" routerLinkActive="active">
+            <mat-icon class="material-icons">home</mat-icon>
+            Dashboard
+          </mat-list-item>
+          <mat-list-item routerLink="/create" routerLinkActive="active">
+            <mat-icon class="material-icons">add_box</mat-icon>
+            Add Inventory
+          </mat-list-item>
+        </mat-nav-list>
+      </mat-nav-list>
+    </mat-sidenav>
+    <mat-sidenav-content>
+      <h1>{{ header }}</h1>
+      <router-outlet>
+      </router-outlet>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+</div>

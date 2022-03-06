@@ -1,0 +1,8 @@
+.view-product-card {
+  max-width: 400px;
+}
+
+.view-product-image {
+  background-image: url('../../../assets/shirt.png');
+  background-size: cover;
+}

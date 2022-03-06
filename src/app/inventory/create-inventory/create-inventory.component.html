@@ -1,0 +1,27 @@
+<form [formGroup]="addInventoryForm">
+  <mat-form-field>
+    <mat-label>Name</mat-label>
+    <input formControlName="name" matInput placeholder="Ex. Shirt">
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Description</mat-label>
+    <input formControlName="description" matInput placeholder="This is an amazing silky shirt">
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Price</mat-label>
+    <input formControlName="price" matInput placeholder="In $">
+    <mat-error *ngIf="addInventoryForm.controls?.['price']?.errors?.['invalidMsg']">
+      {{ addInventoryForm.controls?.['price']?.errors?.['invalidMsg'] }}
+    </mat-error>
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Quantity</mat-label>
+    <input formControlName="quantity" matInput>
+    <mat-error *ngIf="addInventoryForm.controls?.['quantity']?.errors?.['invalidMsg']">
+      {{ addInventoryForm.controls?.['quantity']?.errors?.['invalidMsg'] }}
+    </mat-error>
+  </mat-form-field>
+  <mat-checkbox formControlName="available">Available</mat-checkbox>
+  <button (click)="submitInventory()"mat-raised-button color="primary">Add</button>
+</form>
+

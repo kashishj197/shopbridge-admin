@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Shirt",
+    "price": "800",
+    "image": "",
+    "description": "This is an amazing shirt",
+    "quantity": 200,
+    "available": false
+  },
+  {
+    "name": "Jeans",
+    "price": "900",
+    "image": "",
+    "description": "This is an amazing jeans",
+    "quantity": 100,
+    "available": false
+  },
+  {
+    "name": "Jackets",
+    "price": "1500",
+    "image": "",
+    "description": "This is an amazing jackets",
+    "quantity": 300,
+    "available": false
+  },
+  {
+    "name": "T-Shirt",
+    "price": "400",
+    "image": "",
+    "description": "This is an amazing T-Shirt",
+    "quantity": 800,
+    "available": false
+  },
+  {
+    "name": "Laptop",
+    "price": "150000",
+    "image": "",
+    "description": "This is an amazing laptop",
+    "quantity": 10,
+    "available": false
+  },
+  {
+    "name": "Shirt",
+    "price": "800",
+    "image": "",
+    "description": "This is an amazing shirt",
+    "quantity": 200,
+    "available": false
+  },
+  {
+    "name": "Jeans",
+    "price": "900",
+    "image": "",
+    "description": "This is an amazing jeans",
+    "quantity": 100,
+    "available": false
+  },
+  {
+    "name": "Jackets",
+    "price": "1500",
+    "image": "",
+    "description": "This is an amazing jackets",
+    "quantity": 300,
+    "available": false
+  },
+  {
+    "name": "T-Shirt",
+    "price": "400",
+    "image": "",
+    "description": "This is an amazing T-Shirt",
+    "quantity": 800,
+    "available": false
+  },
+  {
+    "name": "Laptop",
+    "price": "150000",
+    "image": "",
+    "description": "This is an amazing laptop",
+    "quantity": 10,
+    "available": false
+  },
+  {
+    "name": "Shirt",
+    "price": "800",
+    "image": "",
+    "description": "This is an amazing shirt",
+    "quantity": 200,
+    "available": false
+  },
+  {
+    "name": "Jeans",
+    "price": "900",
+    "image": "",
+    "description": "This is an amazing jeans",
+    "quantity": 100,
+    "available": false
+  },
+  {
+    "name": "Jackets",
+    "price": "1500",
+    "image": "",
+    "description": "This is an amazing jackets",
+    "quantity": 300,
+    "available": false
+  },
+  {
+    "name": "T-Shirt",
+    "price": "400",
+    "image": "",
+    "description": "This is an amazing T-Shirt",
+    "quantity": 800,
+    "available": false
+  },
+  {
+    "name": "Laptop",
+    "price": "150000",
+    "image": "",
+    "description": "This is an amazing laptop",
+    "quantity": 10,
+    "available": false
+  }
+]
