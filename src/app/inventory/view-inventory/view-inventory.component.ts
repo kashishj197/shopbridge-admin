@@ -1,4 +1,4 @@
-import { AfterViewInit, Component, OnInit, ViewChild } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { MatSort } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
@@ -34,10 +34,15 @@ export class ViewInventoryComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.appNavService.getInventory$.subscribe((item: Inventory[]) => {
-      this.allInventory$.data = item;
-      this.getNewInventory();
-    });
+    this.appNavService.getInventory$.subscribe(
+      (item: Inventory[]) => {
+        this.allInventory$.data = item;
+        this.getNewInventory();
+      },
+      (err) => {
+        console.log('Some error occurred with mock data', err);
+      }
+    );
   }
 
   ngAfterViewInit(): void {
