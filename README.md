@@ -8,7 +8,7 @@ The project is built on Angular v13.2.5
 ![ShopBridge-Admin](https://user-images.githubusercontent.com/37466111/156913204-39605dec-564c-447a-92ae-e04fa4fd5204.png)
 
 ## Usage
-A walkthrough video on how to use ShopBridge Admin App
+### A walkthrough video on how to use ShopBridge Admin App
 ![Desktop-Shopbridge](https://user-images.githubusercontent.com/37466111/156914488-cf65277e-c616-46f6-bee4-83f80517e4f6.gif)
 
 ## 🕔 Time Tracking
@@ -18,10 +18,9 @@ A walkthrough video on how to use ShopBridge Admin App
 
 ## Mobile Version
 ### A walkthrough of mobile responsive version
-
 ![mobile-version-shopbridge](https://user-images.githubusercontent.com/37466111/156914799-2461a261-5ba1-495d-b09e-44c06d4ed725.gif)
 
-## Tech Stack
+## 🛠 Tech-Stack
 * Angular v13.2.5
 * Angular Material
 * Sweet Alert 2
