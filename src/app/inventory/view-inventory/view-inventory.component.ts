@@ -40,12 +40,15 @@ export class ViewInventoryComponent implements OnInit {
     });
   }
 
+  ngAfterViewInit(): void {
+    this.allInventory$.sort = this.sort;
+  }
+
   getNewInventory(): void {
     this.appNavService.getNewInventory$.subscribe((item: Inventory) => {
       if (item && item.name !== '') {
         item.quantity = Number(item.quantity);
         this.allInventory$.data = [...this.allInventory$.data, item];
-        this.allInventory$.sort = this.sort;
       }
     });
   }
