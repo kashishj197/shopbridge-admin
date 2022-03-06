@@ -17,7 +17,8 @@ A walkthrough video on how to use ShopBridge Admin App
 * Mockdata-Frontend Integration - 1 hour
 
 ## Mobile Version
-A walkthrough of mobile responsive version
+### A walkthrough of mobile responsive version
+
 ![mobile-version-shopbridge](https://user-images.githubusercontent.com/37466111/156914799-2461a261-5ba1-495d-b09e-44c06d4ed725.gif)
 
 ## Tech Stack
