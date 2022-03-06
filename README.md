@@ -20,6 +20,11 @@ The project is built on Angular v13.2.5
 ### A walkthrough of mobile responsive version
 ![mobile-version-shopbridge](https://user-images.githubusercontent.com/37466111/156914799-2461a261-5ba1-495d-b09e-44c06d4ed725.gif)
 
+## ⚙ Setop
+* Clone git repo
+* Run command npm install (make sure node is installed in your desktop)
+* Run ng serve
+
 ## 🛠 Tech-Stack
 * Angular v13.2.5
 * Angular Material
