@@ -27,7 +27,7 @@ The project is built on Angular v13.2.5
 * Rxjs
 
 ## 🕔 Time Tracking
-* Frontend Functionality - 6 hours
-* Frontend Presentation - 4 hours
+* Frontend Functionality - 5 hours
+* Frontend Presentation - 6 hours
 * Mockdata-Frontend Integration - 1 hour
 
