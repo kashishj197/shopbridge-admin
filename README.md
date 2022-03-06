@@ -9,7 +9,12 @@ The project is built on Angular v13.2.5
 
 ## Usage
 A walkthrough video on how to use ShopBridge Admin App
-![Screen-Recording-2022-03-06-at-1 17 08-PM](https://user-images.githubusercontent.com/37466111/156914239-157f0bbb-103e-425d-856c-1e0042e4ead7.gif)
+![Desktop-Shopbridge](https://user-images.githubusercontent.com/37466111/156914488-cf65277e-c616-46f6-bee4-83f80517e4f6.gif)
+
+## 🕔 Time Tracking
+* Frontend Functionality - 6 hours
+* Frontend Presentation - 4 hours
+* Mockdata-Frontend Integration - 1 hour
 
 ## Mobile Version
 ![ShopBridge admin - Mobile version](https://user-images.githubusercontent.com/37466111/156913272-1a935556-6c27-4863-9071-080f2b08c174.png)
