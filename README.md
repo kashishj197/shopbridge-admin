@@ -28,6 +28,7 @@ The project is built on Angular v13.2.5
 
 ## 🕔 Time Tracking
 * Frontend Functionality - 5 hours
-* Frontend Presentation - 6 hours
+* Frontend Presentation - 7 hours
 * Mockdata-Frontend Integration - 1 hour
+* Required Validations and Exception Handling - 1 hour
 
