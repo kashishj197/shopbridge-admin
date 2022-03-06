@@ -68,7 +68,7 @@ export class CreateInventoryComponent implements OnInit {
       Swal.fire('Success', 'Inventory successfully added', 'success');
       setTimeout(() => {
         this.router.navigate(['/dashboard']);
-      }, 2000);
+      }, 1000);
     }
   }
 }

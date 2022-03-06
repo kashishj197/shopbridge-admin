@@ -3,7 +3,7 @@
     <button mat-button mat-dialog-close (click)="closeDialog()"><mat-icon>close</mat-icon></button>
   </mat-dialog-actions>
   <div class="dialog-content">
-    <form [formGroup]="updateInventoryForm">
+    <form [formGroup]="addInventoryForm">
       <mat-form-field>
         <mat-label>Name</mat-label>
         <input formControlName="name" matInput>
@@ -15,15 +15,15 @@
       <mat-form-field>
         <mat-label>Price</mat-label>
         <input formControlName="price" matInput>
-        <mat-error *ngIf="updateInventoryForm.controls?.['price']?.errors?.['invalidMsg']">
-          {{ updateInventoryForm.controls?.['price']?.errors?.['invalidMsg'] }}
+        <mat-error *ngIf="addInventoryForm.controls?.['price']?.errors?.['invalidMsg']">
+          {{ addInventoryForm.controls?.['price']?.errors?.['invalidMsg'] }}
         </mat-error>
       </mat-form-field>
       <mat-form-field>
         <mat-label>Quantity</mat-label>
         <input formControlName="quantity" matInput>
-        <mat-error *ngIf="updateInventoryForm.controls?.['quantity']?.errors?.['invalidMsg']">
-          {{ updateInventoryForm.controls?.['quantity']?.errors?.['invalidMsg'] }}
+        <mat-error *ngIf="addInventoryForm.controls?.['quantity']?.errors?.['invalidMsg']">
+          {{ addInventoryForm.controls?.['quantity']?.errors?.['invalidMsg'] }}
         </mat-error>
       </mat-form-field>
       <mat-checkbox formControlName="available">Available</mat-checkbox>
