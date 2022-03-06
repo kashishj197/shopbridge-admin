@@ -1,16 +1,8 @@
-import { Component, Inject, OnInit } from '@angular/core';
-import {
-  AbstractControl,
-  FormControl,
-  FormGroup,
-  ValidatorFn,
-  Validators,
-} from '@angular/forms';
+import { Component, Inject } from '@angular/core';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { Router } from '@angular/router';
 import { AppNavService } from 'src/app/app-nav/app-nav.service';
 import { Inventory } from 'src/app/models/inventory.model';
-import { PatternModel } from 'src/app/models/validator.model';
 import Swal from 'sweetalert2';
 import { CreateInventoryComponent } from '../../create-inventory/create-inventory.component';
 
