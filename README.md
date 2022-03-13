@@ -2,6 +2,8 @@
 
 Shop Bridge Admin app is a fully responsive production ready web application that helps track the different items for sale. It is an inventory management system which keeps records of the items with their name, description, price and other fields.
 
+###Live Demo: https://shopbridge-13001.web.app/
+
 The project is built on Angular v13.2.5
 
 ## Desktop Version
